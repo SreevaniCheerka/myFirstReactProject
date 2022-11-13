@@ -25,6 +25,7 @@ const PokemonAPI = () => {
             setNext(response.data.next)
             const result0 = await fetchPokemonData(response.data.results[0].url);
             const uppercase = result0.data.species.name.toUpperCase();
+			console.log("testing git ");
             setData1({
                 id: result0.data.id,
                 name: uppercase,
