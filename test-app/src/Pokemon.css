@@ -1,0 +1,45 @@
+.layout{
+    display: flex;
+    padding-top: 50px;
+}
+.div{
+
+    padding: 5PX;
+    margin: 5PX;
+    box-shadow: 1px;
+    background-color: #eeeeee;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.head{
+    background-Color: rgba(38,83,63,255);
+    padding: 10px;
+    color: white;
+    display: flex;
+}
+.id{
+    margin-left: 150px;
+}
+.btn{
+    display: flex;
+}
+.nextbtn{
+    margin-left: 880px ;
+    background-color: rgba(38,83,63,255);
+    color: white;
+    border:none;
+    padding: 10px;
+
+
+
+}
+.prevbtn{
+    color: white;
+    border:none;
+    padding: 10px;
+    background-color: rgba(38,83,63,255);
+}
