@@ -15,7 +15,6 @@ const PokemonAPI = () => {
     const [data1, setData1] = useState(Object);
     const [data2, setData2] = useState(Object);
     const [data3, setData3] = useState(Object);
-    // const [data2, setData2] = useState();
 
     useEffect(() => {
         async function fetchPrevious(){
@@ -51,9 +50,6 @@ const PokemonAPI = () => {
         }
         fetchPrevious();
     }, [url])
-
-
-   console.log(useState());
   return (
     <>
     <div className='layout'>
@@ -89,47 +85,3 @@ const PokemonAPI = () => {
 }
 
 export default PokemonAPI
-
-// //    function handlePrev(){
-//     async function fetchPrevious(){
-//         const previous = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=3&offset=0');
-//         //console.log("hey i am previous",  previous.map(item =>{item}));
-//         setPrev(previous.prev);
-//         //setName(response.data.results.name);
-
-//     }
-//     fetchPrevious();
-// }
-// 
-
-
-//use array.forEach() or array.map() to extract data
-//use event handlers for previous and next
-//
-
-//https://pokeapi.co/api/v2/pokemon/1/ - 
-//name":"bulbasaur - 
-//img https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg
-
-// useEffect( () =>{
-    // async function fetchData(){
-    //     // const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=3&offset=0');
-    //     const data1 = await axios.get('https://pokeapi.co/api/v2/pokemon/1');
-    //      setImage(data1.data.sprites.other.dream_world.front_default);
-    //      setId(data1.data.id);
-    //      setName(data1.data.species.name);
- 
-    //      const data2 = await axios.get('https://pokeapi.co/api/v2/pokemon/2');
-    //      setImage(data2.data.sprites.other.dream_world.front_default);
-    //      setId(data2.data.id);
-    //      setName(data2.data.species.name);
- 
-    //      const data3 = await axios.get('https://pokeapi.co/api/v2/pokemon/3');
-    //      setImage(data3.data.sprites.other.dream_world.front_default);
-    //      setId(data3.data.id);
-    //      setName(data3.data.species.name);
-    //      }
-    //      fetchData();
-    //  }, []);
- 
-
