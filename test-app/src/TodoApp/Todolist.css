@@ -1,0 +1,17 @@
+.todoapp{
+    display: block;
+    background-color: rgb(117, 147, 239);
+    color: rgb(15, 14, 14);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 20%;
+}
+.title{
+    padding-top: 20px;
+    color: rgb(9, 9, 67);
+}
+.add_btn, .del_btn{
+ 
+    background-color: rgb(9, 9, 67);
+    color: white
+}
